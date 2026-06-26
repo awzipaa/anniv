@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Anniversary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<video id="music" autoplay loop style="display:none;">
+    <source src="music/lagu.mp4" type="video/mp4">
+</video>
+
+<section id="cover" class="cover">
+  <div class="card">
+    <p class="small">A little surprise for you</p>
+    <h1>Happy Anniversary ❤️</h1>
+    <p>Untuk orang paling spesial di hidupku.</p>
+    <button onclick="startSurprise()">Klik Aku</button>
+  </div>
+</section>
+
+<section id="main" class="hidden">
+  <div class="hero">
+    <h1>Untuk Kamu, Sayang ❤️</h1>
+    <p id="typing"></p>
+  </div>
+
+<div class="counter">
+  <h2>Kita sudah bersama selama</h2>
+  <div id="daysTogether">0 hari</div>
+</div>
+
+  <div class="polaroid-gallery">
+    <img src="photos/foto 1.jpeg">
+    <img src="photos/foto2.jpeg">
+    <img src="photos/foto3.jpeg">
+  </div>
+
+  <div class="timeline">
+    <h2>Our Little Timeline</h2>
+    <div class="timeline-item">🌸 Pertama kali kenal</div>
+    <div class="timeline-item">💬 Mulai sering ngobrol</div>
+    <div class="timeline-item">❤️ Mulai saling sayang</div>
+    <div class="timeline-item">✨ Hari ini masih saling memilih</div>
+  </div>
+
+  <div class="letter">
+    <h2>Surat Untuk Kamu</h2>
+    <p>
+      Terima kasih sudah hadir, bertahan, dan tetap menjadi bagian indah dalam hidupku.
+      Aku tahu perjalanan kita tidak selalu mudah, tapi aku senang karena kita masih di sini.
+      Semoga ke depannya kita bisa terus saling menjaga, saling memahami, dan membuat lebih banyak kenangan kecil yang berarti.
+    </p>
+  </div>
+
+  <div class="video-box">
+    <h2>Our Memory</h2>
+    <video controls>
+      <source src="video/video.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="ending">
+    <h2>Will you keep making memories with me?</h2>
+    <button onclick="yesClicked()">YES ❤️</button>
+    <p id="finalText"></p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
